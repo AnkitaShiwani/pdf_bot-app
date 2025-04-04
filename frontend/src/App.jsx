@@ -724,7 +724,7 @@ function App() {
           {/* Summary Section */}
       {summary && (
             <Card className="col-span-full">
-              <CardHeader className="flex flex-row items-start justify-between space-y-0">
+              <CardHeader className="flex flex-row items-center justify-center space-y-0">
                 <div>
                   <CardTitle>Summary</CardTitle>
                   <CardDescription>AI-generated summary of your document</CardDescription>
