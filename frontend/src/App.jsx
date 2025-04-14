@@ -7,7 +7,7 @@ import { Select } from "./components/ui/select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause, faStop, faHistory } from "@fortawesome/free-solid-svg-icons";
 
-const API_BASE_URL = "http://13.202.188.44:8000/"
+const API_BASE_URL = "http://13.202.188.44:8000"
 
 const SUPPORTED_LANGUAGES = {
   en: "English",
