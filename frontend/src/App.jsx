@@ -7,7 +7,7 @@ import { Select } from "./components/ui/select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause, faStop, faHistory } from "@fortawesome/free-solid-svg-icons";
 
-const API_BASE_URL = "https://pdf-bot-app.onrender.com"; // FastAPI Backend URL
+const API_BASE_URL = process.env.API_URL
 
 const SUPPORTED_LANGUAGES = {
   en: "English",
