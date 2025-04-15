@@ -7,7 +7,9 @@ import { Select } from "./components/ui/select";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause, faStop, faHistory } from "@fortawesome/free-solid-svg-icons";
 
-const API_BASE_URL = "https://13.202.188.44:8000"
+// Use Vite's environment variable syntax
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+console.log("API_BASE_URL:", API_BASE_URL);
 
 const SUPPORTED_LANGUAGES = {
   en: "English",
